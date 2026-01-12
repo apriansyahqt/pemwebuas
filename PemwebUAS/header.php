@@ -8,7 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-
+<style>
+    .navbar {
+  width: 100%;
+  background: #9fb9c8;
+  padding: 15px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+</style>
 <body>
     <nav class="navbar navbar-expand-lg mb-4">
         <div class="container">
@@ -24,4 +31,5 @@
     </nav>
 
     <main class="container">
+
 
