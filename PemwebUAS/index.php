@@ -27,9 +27,6 @@ include 'header.php';
                         <td>Rp <?= $row['nominal']; ?>
                         </td>
                         <td>
-                            <a href="edit.php?id=<? = $row['id']; ?>" class="btn btn-sm btn-outline-primary">Edit</a>
-                            <a href="hapus.php?id=<?= $row['id']; ?>" class="btn btn-sm btn-outline-danger"
-                                onclick="return confirm('Aselina dihapus?')">Hapus</a>
                         </td>
                     </tr>
                 <?php endwhile; ?>
@@ -40,6 +37,7 @@ include 'header.php';
 
 
 <?php include 'footer.php'; ?>
+
 
 
 
